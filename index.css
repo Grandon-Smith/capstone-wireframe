@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    border: 2px black solid;
+    background-color: rgb(146, 143, 143);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-bottom: 10rem;
+}
+
+main {
+    padding: 1%;
+}
+
+.welcome {
+    border: black 2px solid;
+    background-color: rgb(185, 172, 172);
+    margin: 1rem auto;
+    text-align: center;
+    padding: 2rem 0;
+    width: 65%;
+    max-width: 800px;
+}
+
+.about {
+    background-color: gray;
+    border: black 2px solid;
+    text-align: center;
+    padding: 2rem 0;
+}
